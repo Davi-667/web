@@ -16,81 +16,141 @@ main{
     color:rgb(0, 0, 0);
     background-color: rgb(255, 168, 87,0.5);
 }
-.container {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-  }
+
 h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    margin-top: 50px 20px 50px 20px;
-    background-color: rgb(78, 255, 78);
+    font-style: italic;
+    font-size: 40px;
+    margin: 20px;
+    margin-bottom: 10px;
 }
-.brand{
-    margin-left: 20px;
+h2{
+    position: center;
+    margin-bottom: 20px;
 }
 .banner{ 
     display: flex;
     position: center;
     flex-direction: row;
     justify-content:space-around;
-    background-color: rgb(255, 147, 40);
-    border-bottom: 20px solid rgb(255, 147, 40);
-    border-top: 20px solid rgb(255, 147, 40);
+    background-color: rgb(255, 147, 40, 0.3);
+    border-bottom: 0px solid rgb(255, 147, 40);
+    border-top: 0px solid rgb(255, 147, 40);
     border-left: 10px dashed rgb(255, 250, 246, 0.5);
     border-right: 10px dashed rgb(255, 250, 246, 0.5);
+    margin-bottom: 0px;
 }
 .banner2{
     position: center;
     align-items: center;
     border-radius: 50px;
     margin-left: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-left: 45px;
+    border-right: 45px;
+    border-style: solid;
+    border-color:rgb(18, 81, 0);
+}
+.container {
+    max-width: 1200px;
+    height: 180px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(18, 81, 0);
+    border-radius: 0px 0px 50px 50px;
+    margin-bottom: 300px;
+    border: 5px solid rgb(255, 147, 40);
+    align-items: center;
+    font-style: italic;
+  }
+.row{
+    display: flex;
+}
+.frase{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+}
+.uno{
+    height: auto;
+    width:1100px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 173, 23);
+    padding: 50px;
+    border-radius: 20px 0px 0px 20px;
+    border: 5px solid rgb(255, 147, 40);
+    border-right: none;
+}
+.dos{
+    color: rgb(255, 102, 8);
+    padding: 50px;
+    background-color: rgb(255, 227, 137);
+    border-radius: 0px 20px 20px 0px;
+    border: 5px solid rgb(255, 147, 40)
+    
+}
+.logo{
+    border: 30px solid  rgb(18, 81, 0);
+    border-radius: 500px;
+    margin:0px;
+}
+.juegoc{
+    margin-bottom: 10px;
 }
 .juego{
-    color: white;
+    color: rgb(0, 0, 0);
+    background-color:  rgb(254, 159, 43,0.6);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(255, 192, 203, 25%);
-    height: 500px;
+    height: 300px;
     padding-top: 20px;
+    margin-bottom: 0px;
+    border-radius: 50px;
+    border:none;
+}
+.concigna{
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-between;
+    border-radius: 50px 0px;
+}
+.vector{
+    display: flex;
+    height: 80px;
+    width: 70px;
+}
+.medio{
+    flex-direction: column;
+    margin-top: 50px;
 }
 .boton1{
     text-align: center;
 }
+
 .contenedorBotones{
-    display: flex;
-    width: auto;
-    height: 200px;
-    background-color: blueviolet;
-    margin-top: 20px;
-    margin-top: 20px;
+    height: 100px;
+    background-color: rgba(241, 219, 146);
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: space-around;
-    border: 20px double pink;
     border-radius: 50px;
-}
-.row{
-    display: flex;
-}
-
-.uno{
-    color: rgb(255, 255, 255);
-    background-color: rgb(5, 128, 21);
-    padding: 20px;
-    border-radius: 20px 0px 0px 20px;
-}
-.dos{
-    color: rgb(255, 102, 8);
-    padding: 22px 22px 22px 30px;
-    background-color: rgb(255, 227, 137);
-    border-radius: 0px 20px 20px 0px;
-    
 }
 .bot{
     display: flex;
     flex-wrap: nowrap;
-    border: 20px solid rgb(175, 116, 152);
+    border: 10px solid rgb(254, 215, 97);
     border-radius: 20px;
 }
 @media (max-width: 600px) {
@@ -98,12 +158,11 @@ h1{
       flex: 100%;
     }
   }
-
-  .container-nav {
+.container-nav {
     display: flex;
     padding: 10px;
     height: 50px;
-    background-color: rgb(207, 78, 9);
+    background-color: rgb(236, 132, 28);
     font-family: Helvetica;
     font-weight:bold;
   }
@@ -221,10 +280,3 @@ footer{
     margin-top: 50px;
     align-items: center;
 }
-/* .base{
-    width: 100%;
-    height: 10px;
-    padding: 10px;
-    margin-top: 90px;
-    background-color: rgb(255, 227, 137);
-} */

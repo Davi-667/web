@@ -28,11 +28,16 @@
     </div>
     <div class="container">
         <section>
-            <h1>Bienvenido a mi primer Website</h1>
-            <div class="row">
+            <div class="row frase">
+                <h1>Los medallones más ricos y saludables son de: </h1>
+                <div class="logo">
+                    <a href="./index.html" class="brand"><img src="./imagenes/logo2.png" alt="Brotecitos logo" width="190" height="90"></a>
+                </div>
+            </div>
+            <div class="row info">
                 <section class="column uno">
                     <h2>Salud en tu plato</h2>
-                    <p> Desde Brotecitos te ofrecemos una opción fast food la cual te cambiara la idea de este concepto alimenticio.</p>
+                    <p> Desde Brotecitos te ofrecemos una opción fast food la cual te cambiara la idea de este concepto alimenticio. ¡Sin conservantes!</p>
                     <p>Una comida rápida, natural y sana.</p>
                 </section>
                 <section class="column dos">
@@ -42,23 +47,34 @@
             </div>
         </section>
     </div>
-    <div class="juego">
-        <h3>BOTONES</h3>
-        <p>¿Qué pasa si haces click?</p>
-        <div class="boton1">
-            <button onclick="showAlert()">¡Haz clic en mí!</button>
-        </div>
-        <div>
-            <h4>Juego de botones</h4>
-            <p>¿Cual será el boton de la suerte? Elige un botón que creas que es el ganador.</p>
+    <section class="juegoc">
+        <div class="container juego">
 
+            <div class="container concigna">
+                <div class="row">
+                    <img class="vector" src="./imagenes/brote.png" alt="Vector de un brote de planta" />
+                </div>
+                <div class="row medio">
+                    <div>
+                        <h2>¿No te decidís cual de nuestras variedad probar primero?</h2>
+                    </div>
+                    <div>
+                        <p>¿Te animas a probar este jueguito y ver cual te toca?</p>
+                        <p>Hacé click en cualquiera de estos botoncitos.</p>
+                        <div class="row concigna">
+                            <div class="bot"><button onclick="perdiste()">Botoncito 1</button></div>
+                            <div class="bot"><button onclick="ganador()">Botoncito 2</button></div>
+                            <div class="bot"><button onclick="perdiste()">Botoncito 3</button></div>
+                            <div class="bot"><button onclick="perdiste()">Botoncito 3</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <img class="vector" src="./imagenes/brote.png" alt="Vector de un brote de planta" />
+                </div>
+            </div>
         </div>
-        <div class="contenedorBotones">
-            <div class="bot"><button onclick="perdiste()">Botoncito 1</button></div>
-            <div class="bot"><button onclick="ganador()">Botoncito 2</button></div>
-            <div class="bot"><button onclick="perdiste()">Botoncito 3</button></div>
-        </div>
-    </div>
+    </section>
     <footer>
         <div class="lista-contacto">
             <p>Contacto: +546543165846</p>
