@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container-nav">
+            <nav class="navbar" role="navigation">
+                <a href="./index.html" class="brand"><img src="./imagenes/logo.png" alt="Brotecitos logo" width="180" height="120"></a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Incio</a></li>
+                    <li><a href="services.html">Servicios</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                    <li><a href="about.html">Nosotros</a></li>
+                </ul>
+            </nav>
+            <button class="button-menu-toggle">Menu</button>
+        </div>
+    </header>
+    <div class="container banner">
+        <img class="banner1" src="./imagenes/banner.jpg" width="650px" height="300px">
+    </div>
+    <div class="container">
+        <section>
+            <h1>Bienvenido a mi primer Website</h1>
+            <div class="row">
+                <section class="column uno">
+                    <h2>Salud en tu plato</h2>
+                    <p> Desde Brotecitos te ofrecemos una opción fast food la cual te cambiara la idea de este concepto alimenticio.</p>
+                    <p>Una comida rápida, natural y sana.</p>
+                </section>
+                <section class="column dos">
+                    <h2>Nuestra marca es apta para veganos!!!</h2>
+                    <p>A lo largo de nuestra tayectoria, nos hemos descatado por ser una opcción apta para veganos! No ningun ingrediente proviniente de la explotación animales.</p>
+                </section>
+            </div>
+        </section>
+    </div>
+    <div class="juego">
+        <h3>BOTONES</h3>
+        <p>¿Qué pasa si haces click?</p>
+        <div class="boton1">
+            <button onclick="showAlert()">¡Haz clic en mí!</button>
+        </div>
+        <div>
+            <h4>Juego de botones</h4>
+            <p>¿Cual será el boton de la suerte? Elige un botón que creas que es el ganador.</p>
+
+        </div>
+        <div class="contenedorBotones">
+            <div class="bot"><button onclick="perdiste()">Botoncito 1</button></div>
+            <div class="bot"><button onclick="ganador()">Botoncito 2</button></div>
+            <div class="bot"><button onclick="perdiste()">Botoncito 3</button></div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <p>Contacto: +546543165846</p>
+            <p>Dirección: La Cañada 5463</p>
+            <p>Pais de las Maravillas</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
