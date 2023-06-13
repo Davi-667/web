@@ -14,7 +14,6 @@ main{
     position: center;
     color:rgb(0, 0, 0);
     background-color: rgb(255, 168, 87,0.5);
-    margin: 0px;
 }
 .container {
     max-width: 800px;
@@ -185,7 +184,9 @@ a {
     margin:10px;
     gap: 20px;
 }
-
+.greeting{
+    text-align: center;
+}
 .imagen{
     width: 240px;
     height: 300px;
