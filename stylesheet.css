@@ -161,8 +161,8 @@ h2{
 .container-nav {
     display: flex;
     padding: 10px;
-    height: 50px;
-    background-color: rgb(236, 132, 28);
+    height: 70px;
+    background-color: rgb(236, 101, 28);
     font-family: Helvetica;
     font-weight:bold;
   }
@@ -177,6 +177,7 @@ h2{
 .brand {
     display: flex;
     align-items: center;
+    margin-left: 25px;
 }
 
 li>a {
@@ -196,9 +197,7 @@ a {
 .nav-links {
     display: flex;
     align-items: center;
-}
-  
-  
+} 
 .button-menu-toggle {
     display: none;
 }
@@ -274,9 +273,12 @@ footer{
     background-color: rgb(45, 165, 41);
     height: 200px;
     width: 100%;
-    text-align: center;
 }
 .lista-contacto{
     margin-top: 50px;
-    align-items: center;
+    align-items:flex-start;
+}
+.brandfooter{
+    height: 20px;
+    width: 20px;
 }
